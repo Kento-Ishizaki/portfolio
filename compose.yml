@@ -1,0 +1,17 @@
+services:
+  node:
+    build:
+      context: .
+      dockerfile: infra/Dockerfile
+    volumes:
+      - type: bind
+        source: .
+        target: /app
+      - type: volume
+        source: node_modules
+        target: /app/node_modules
+    ports:
+      - "3000:3000"
+
+volumes:
+  node_modules:
