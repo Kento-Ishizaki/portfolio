@@ -28,7 +28,7 @@ const Home = () => {
         <div>
           <img
             src={HeroImage}
-            alt="my picture"
+            alt=""
             className="rounded-2xl mx-auto w-2/3 md:flex-row"
           />
         </div>
