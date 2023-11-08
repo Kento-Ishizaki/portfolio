@@ -1,4 +1,3 @@
-import React from 'react';
 import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg';
 import installNode from '../assets/portfolio/installNode.jpg';
 import nabbar from '../assets/portfolio/navbar.jpg';
